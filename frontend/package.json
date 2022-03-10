@@ -21,7 +21,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "ghDeploy": "gh-pages -d build",
-    "deploy": "npm run build && scp -r ./build/* cimetr@51.250.31.137:/home/cimetr/react-mesto-api-full/frontend/build"
+    "deploy": "npm run build && scp -r ./build/* cimetr@84.201.143.112:/home/cimetr/react-mesto-api-full/frontend/build"
   },
   "eslintConfig": {
     "extends": [
