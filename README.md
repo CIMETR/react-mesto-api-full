@@ -1,28 +1,8 @@
-# Проект Mesto
----
-## Стек
-* HTML
-* CSS
-* React.js
-* Node.js
-* Express
-* MongoDB
+# react-mesto-api-full
+* [Доступ к серверу](https://superproject.nomoredomains.rocks)
+* [Доступ к api] (https://api.superproject.nomoredomains.rocks)
+* Публичный IP **51.250.12.113**
 
-## Запуск проекта
-Для запуска проекта:
-1. Клонировать репозиторий
-2. Установить зависимости `npm install`
-3. Запустить проект `npm start`
-4. Проект запускается на http://localhost:3000/
-
-## Публичный IP-адрес сервера
-
-51.250.31.137
-
-## Домен сервера
-
-api.cimetr.students.nomoredomains.rocks
-
-## Фронтенд на сервере
-
-cimetr.students.nomoredomains.rocks
+В проекте длежат две папки:
+1. Фронтенд проекта **/frontend**
+2. Бэкенд проекта **/backend**
