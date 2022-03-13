@@ -63,6 +63,7 @@ app.use('/', cardsRouter);
 app.use(errorLogger);
 app.use(errors());
 
+// eslint-disable-next-line no-unused-vars
 app.all('*', (req) => {
   throw new NotFoundError('Запрашиваемый ресурс не найден');
 });
@@ -78,5 +79,6 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(PORT, () => {
+  // eslint-disable-next-line no-console
   console.log(`App listen ${PORT}`);
 });

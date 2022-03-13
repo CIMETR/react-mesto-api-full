@@ -1,4 +1,4 @@
-const BASE_URL = "api.cimetr.students.nomoredomains.rocks";
+const BASE_URL = "https://api.cimetr.students.nomoredomains.rocks";
 
 const checkResponse = (res) => {
     return res.ok ? res.json() : Promise.reject(`Error! + ${res.status}`);

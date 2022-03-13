@@ -87,7 +87,7 @@ class Api {
 
 //  export instance of Api
 const api = new Api({
-    baseUrl: `api.cimetr.students.nomoredomains.rocks`,
+    baseUrl: `https://api.cimetr.students.nomoredomains.rocks`,
     headers: {
         authorization: `Bearer ${localStorage.getItem("jwt")}`,
         "Content-Type": "application/json",
