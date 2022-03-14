@@ -120,7 +120,7 @@ const getCurrentUser = (req, res, next) => {
       throw new NotFoundError('Пользователь по указанному _id не найден');
     })
     .catch((err) => {
-      if (err.name === 'Cast Error') {
+      if (err.name === 'CastError') {
         next(new BadRequestError('Переданы некорректные данные _id'));
       }
       next(err);
